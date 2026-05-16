@@ -70,7 +70,6 @@ const Index = () => {
       </header>
 
   <Hero />
-      <Hero />
       
       {/* Features Section */}
       <section className="container mx-auto py-20 px-4">
