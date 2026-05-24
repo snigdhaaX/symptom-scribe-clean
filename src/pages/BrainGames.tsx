@@ -49,6 +49,7 @@ const BrainGames = () => {
   const [questionTimeLeft, setQuestionTimeLeft] = useState(15);
   const [showFireStreak, setShowFireStreak] = useState(false);
   const timerRef = useRef<number | null>(null);
+  const wordTimeoutRef = useRef<number | null>(null);
   const TOTAL_QUESTIONS = 10;
   const XP_PER_QUESTION = 10;
   const XP_PER_LEVEL = 100;
